@@ -1,0 +1,19 @@
+{
+  "createUpnClaim": false,
+  "passthroughClaimsWithNoMapping": false,
+  "mapUnknownClaimsAsIs": true,
+  "mapIdentities": false,
+  "signatureAlgorithm": "rsa-sha256",
+  "digestAlgorithm": "sha1",
+  "lifetimeInSeconds": 36000,
+  "signResponse": false,
+  "typedAttributes": true,
+  "includeAttributeNameFormat": true,
+  "authnContextClassRef": "urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified",
+  "nameIdentifierFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress",
+  "nameIdentifierProbes": [
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
+  ]
+}
